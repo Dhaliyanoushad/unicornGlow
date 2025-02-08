@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Mood.css";
 import aiImage from "../../assets/aiImage2.webp"; // Replace with your AI-generated image
 
-const Mood = () => {
+const Mood = ({ days }) => {
   const [mood, setMood] = useState("");
   const [recommendation, setRecommendation] = useState("");
   const [daysLeft, setDaysLeft] = useState(5); // Example: 5 days until next cycle
@@ -10,11 +10,36 @@ const Mood = () => {
   const [affirmation, setAffirmation] = useState("");
 
   const moodOptions = [
-    { emoji: "😊", mood: "Happy", food: "Smoothie Bowl 🍓", activity: "Dancing 💃" },
-    { emoji: "😔", mood: "Sad", food: "Dark Chocolate 🍫", activity: "Journaling 📖" },
-    { emoji: "😴", mood: "Tired", food: "Nuts & Seeds 🥜", activity: "Taking a Nap 💤" },
-    { emoji: "😡", mood: "Irritated", food: "Herbal Tea 🍵", activity: "Meditation 🧘" },
-    { emoji: "🥰", mood: "Loving", food: "Fresh Fruits 🍉", activity: "Listening to Music 🎶" },
+    {
+      emoji: "😊",
+      mood: "Happy",
+      food: "Smoothie Bowl 🍓",
+      activity: "Dancing 💃",
+    },
+    {
+      emoji: "😔",
+      mood: "Sad",
+      food: "Dark Chocolate 🍫",
+      activity: "Journaling 📖",
+    },
+    {
+      emoji: "😴",
+      mood: "Tired",
+      food: "Nuts & Seeds 🥜",
+      activity: "Taking a Nap 💤",
+    },
+    {
+      emoji: "😡",
+      mood: "Irritated",
+      food: "Herbal Tea 🍵",
+      activity: "Meditation 🧘",
+    },
+    {
+      emoji: "🥰",
+      mood: "Loving",
+      food: "Fresh Fruits 🍉",
+      activity: "Listening to Music 🎶",
+    },
   ];
 
   const selfCareTips = [
@@ -34,8 +59,12 @@ const Mood = () => {
   ];
 
   useEffect(() => {
-    setSelfCareTip(selfCareTips[Math.floor(Math.random() * selfCareTips.length)]);
-    setAffirmation(affirmations[Math.floor(Math.random() * affirmations.length)]);
+    setSelfCareTip(
+      selfCareTips[Math.floor(Math.random() * selfCareTips.length)]
+    );
+    setAffirmation(
+      affirmations[Math.floor(Math.random() * affirmations.length)]
+    );
   }, []);
 
   const handleMoodSelect = (mood) => {
@@ -54,12 +83,11 @@ const Mood = () => {
       {/* Content Section */}
       <div className="about-right">
         <h3 className="fade-in">FOR YOU</h3>
-        
 
         {/* Period Tracker */}
         <div className="cycle-tracker">
           <h4>Next Cycle in:</h4>
-          <p className="days-left">{daysLeft} days</p>
+          <p className="days-left">{days} days</p>
         </div>
 
         {/* Mood Tracker */}
@@ -67,14 +95,19 @@ const Mood = () => {
           <h4 className="glow-text">How are you feeling today?</h4>
           <div className="mood-options">
             {moodOptions.map((option) => (
-              <button key={option.mood} onClick={() => handleMoodSelect(option.mood)} className="mood-btn">
+              <button
+                key={option.mood}
+                onClick={() => handleMoodSelect(option.mood)}
+                className="emoji-btn"
+              >
                 {option.emoji}
               </button>
             ))}
           </div>
           {mood && (
             <p className="recommendation">
-              You’re feeling **{mood}**. Try **{recommendation}** to feel better! 🥗
+              You’re feeling **{mood}**. Try **{recommendation}** to feel
+              better! 🥗
             </p>
           )}
         </div>
@@ -95,4 +128,4 @@ const Mood = () => {
   );
 };
 
-export default Mood
+export default Mood;
