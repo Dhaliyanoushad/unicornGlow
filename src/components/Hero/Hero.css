@@ -5,8 +5,14 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(to bottom, #ffe0f0, #ffb6c1);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(255, 128, 198, 1) 100%
+  );
   text-align: center;
+  padding: 20px;
 }
 
 .hero-content {
@@ -79,15 +85,6 @@
   100% {
     transform: translateY(0px);
   }
-}
-/* Hero Section */
-.hero-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background: linear-gradient(to bottom, #ffe0f0, #ffb6c1);
-  padding: 20px;
 }
 
 /* Left Column - Text */
