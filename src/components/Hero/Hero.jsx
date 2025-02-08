@@ -13,7 +13,7 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          Hey Ladiesss
+          Hey Ladies
         </motion.h1>
         <motion.p
           className="hero-text"
@@ -21,7 +21,8 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Unleash your power, embrace your dreams, and shine like never before.
+          Dream big. Stay Positive.
+          <br /> Welcome to the Self-Love Club
         </motion.p>
         <motion.button
           className="hero-button"
@@ -35,7 +36,7 @@ export default function Hero() {
       {/* Right Column - Image */}
       <div className="hero-image">
         <motion.img
-          src="https://wallpapercave.com/wp/wp2100347.jpg" // Replace with your own image
+          src="/aiImage3.webp" // Place image in 'public' folder OR use import method below
           alt="Empowered Woman"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
