@@ -21,6 +21,10 @@
 .logo {
   height: 45px;
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+}
 
 /* 🔗 Navigation */
 ul {
@@ -57,6 +61,19 @@ ul li:hover {
 .mood-btn:hover {
   background: orange;
   transform: scale(1.1);
+}
+
+.logoname {
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #e4f5fc;
+  transition: color 0.3s ease-in-out;
+  width: 140px;
+}
+
+.logoname:hover {
+  color: var(--soft-pink);
 }
 
 @media (max-width: 1000px) {

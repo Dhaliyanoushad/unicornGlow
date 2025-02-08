@@ -19,7 +19,10 @@ const Header = () => {
 
   return (
     <nav className={`navbar ${sticky ? "dark-nav" : ""}`}>
-      <img src={logo} alt="" className="logo" />
+      <div className="logo-container">
+        <img src={logo} alt="" className="logo" />
+        <h1 className="logoname">UnicornGlow</h1>
+      </div>
       <ul>
         <li>
           <Link to="hero" smooth={true} offset={0} duration={500}>
