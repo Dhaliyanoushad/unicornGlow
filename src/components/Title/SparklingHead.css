@@ -1,0 +1,185 @@
+/* Import Gafiya Font */
+@import url('https://fonts.googleapis.com/css2?family=Gafiya&display=swap');
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffe4e1; /* Soft pink background */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Sparkly Big Bow Decoration */
+.sparkly-bow {
+  position: relative;
+  margin-bottom: 20px;
+  animation: sparkleBow 2s infinite alternate;
+}
+
+.bow-left,
+.bow-right {
+  width: 100px;
+  height: 80px;
+  background-color: #ff69b4; /* Hot pink */
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgba(255, 105, 180, 0.8);
+  animation: sparkleBow 1.5s infinite alternate;
+}
+
+.bow-left {
+  left: -80px;
+  transform: rotate(-40deg);
+}
+
+.bow-right {
+  right: -80px;
+  transform: rotate(40deg);
+}
+
+.knot {
+  width: 80px;
+  height: 80px;
+  background-color: #ff1493; /* Deep pink */
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 20px rgba(255, 20, 147, 0.8);
+  animation: sparkleKnot 2s infinite alternate;
+}
+
+/* Sparkling Heading */
+.sparkling-text {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Gafiya', cursive; /* Apply Gafiya Font */
+  color: #ff1493;
+  position: relative;
+  text-shadow: 0px 0px 20px #ff69b4, 0px 0px 30px #ff1493;
+  animation: glow 1.5s infinite alternate;
+}
+
+/* Sparkle effect on text */
+.sparkle-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.text-sparkle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  animation: sparkleTextEffect 2s infinite;
+}
+
+@keyframes sparkleTextEffect {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+/* Random placement for text sparkles */
+.text-sparkle:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; }
+.text-sparkle:nth-child(2) { top: 40%; left: 30%; animation-delay: 0.3s; }
+.text-sparkle:nth-child(3) { top: 70%; left: 80%; animation-delay: 0.6s; }
+.text-sparkle:nth-child(4) { top: 20%; left: 60%; animation-delay: 0.9s; }
+.text-sparkle:nth-child(5) { top: 50%; left: 90%; animation-delay: 1.2s; }
+.text-sparkle:nth-child(6) { top: 80%; left: 20%; animation-delay: 1.5s; }
+.text-sparkle:nth-child(7) { top: 30%; left: 75%; animation-delay: 1.8s; }
+.text-sparkle:nth-child(8) { top: 60%; left: 10%; animation-delay: 2.1s; }
+.text-sparkle:nth-child(9) { top: 25%; left: 50%; animation-delay: 2.4s; }
+.text-sparkle:nth-child(10) { top: 90%; left: 40%; animation-delay: 2.7s; }
+
+/* Glowing text animation */
+@keyframes glow {
+  0% {
+    text-shadow: 0px 0px 5px #ff69b4;
+  }
+  100% {
+    text-shadow: 0px 0px 15px #ff1493;
+  }
+}
+
+/* Floating sparkles */
+.sparkles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.sparkle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0;
+  animation: sparkleAnimation 2s infinite;
+}
+
+@keyframes sparkleAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+/* Random placement for floating sparkles */
+.sparkle:nth-child(1) { top: 10%; left: 5%; animation-delay: 0s; }
+.sparkle:nth-child(2) { top: 50%; left: 20%; animation-delay: 0.3s; }
+.sparkle:nth-child(3) { top: 80%; left: 70%; animation-delay: 0.6s; }
+.sparkle:nth-child(4) { top: 30%; left: 60%; animation-delay: 0.9s; }
+.sparkle:nth-child(5) { top: 15%; left: 90%; animation-delay: 1.2s; }
+.sparkle:nth-child(6) { top: 85%; left: 10%; animation-delay: 1.5s; }
+.sparkle:nth-child(7) { top: 25%; left: 75%; animation-delay: 1.8s; }
+.sparkle:nth-child(8) { top: 60%; left: 5%; animation-delay: 2.1s; }
+.sparkle:nth-child(9) { top: 20%; left: 50%; animation-delay: 2.4s; }
+.sparkle:nth-child(10) { top: 90%; left: 40%; animation-delay: 2.7s; }
+
+/* Sparkling Bow Animation */
+@keyframes sparkleBow {
+  0% {
+    box-shadow: 0px 0px 10px rgba(255, 105, 180, 0.8);
+  }
+  100% {
+    box-shadow: 0px 0px 25px rgba(255, 20, 147, 0.9);
+  }
+}
+
+@keyframes sparkleKnot {
+  0% {
+    box-shadow: 0px 0px 10px rgba(255, 20, 147, 0.8);
+  }
+  100% {
+    box-shadow: 0px 0px 25px rgba(255, 0, 147, 1);
+  }
+}
