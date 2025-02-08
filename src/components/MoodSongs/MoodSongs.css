@@ -1,0 +1,79 @@
+.mood-container {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to bottom, #ffe0f0, #ffb6c1);
+  border-radius: 15px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #d63384;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.mood-select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #ff69b4;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mood-select:hover {
+  background: #ffb6c1;
+}
+
+.song-list, .favorites-list {
+  margin-top: 20px;
+}
+
+.song-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.song-item a {
+  color: #6a1b4d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.song-item a:hover {
+  color: #d63384;
+}
+
+.fav-button {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fav-button:hover {
+  background: #ff1493;
+  transform: scale(1.1);
+}
+
+.favorites-list {
+  margin-top: 30px;
+}
+
+.fav-song {
+  list-style: none;
+  font-weight: bold;
+  color: #6a1b4d;
+}

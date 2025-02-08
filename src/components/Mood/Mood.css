@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  background: linear-gradient(to right, #ffd6e0, #ffe4e1);
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Main Section */
+.about {
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  background: rgba(255, 214, 224, 0.9);
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.about-left {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.aiImage {
+  width: 80%;
+  max-width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Section */
+.about-right {
+  flex-basis: 65%;
+}
+
+/* Heading Animations */
+.animated-heading {
+  font-size: 32px;
+  color: #800f2f;
+  margin: 10px 0;
+  position: relative;
+  animation: bounce 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+/* Mood Tracker */
+.mood-btn {
+  font-size: 24px;
+  padding: 12px;
+  background: #ffffff;
+  border: 2px solid #d63384;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.mood-btn:hover {
+  transform: scale(1.2);
+  background: #ffebf0;
+  box-shadow: 0px 4px 10px rgba(255, 20, 147, 0.3);
+}
+
+/* Period Tracker */
+.cycle-tracker {
+  background: #ffe4ec;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.days-left {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d63384;
+}
+
+/* Self-Care & Affirmations */
+.self-care, .affirmation {
+  background: #fff8fa;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.self-care h4, .affirmation h4 {
+  color: #d63384;
+  font-weight: bold;
+}
+
+/* Floating Hearts Animation */
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.mood-btn:nth-child(odd) {
+  animation: floating 2s infinite ease-in-out;
+}
+
+.mood-btn:nth-child(even) {
+  animation: floating 2s infinite ease-in-out 1s;
+}
