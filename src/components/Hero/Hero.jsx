@@ -4,7 +4,7 @@ import "./Hero.css"; // Import CSS file
 
 export default function Hero() {
   return (
-    <div className="hero-container">
+    <div className="hero hero-container">
       {/* Left Column - Text Content */}
       <div className="hero-content">
         <motion.h1

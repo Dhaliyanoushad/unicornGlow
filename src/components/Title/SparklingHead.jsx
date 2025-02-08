@@ -5,7 +5,7 @@ import "./SparklingHead.css"; // Import CSS file for styles
 
 const SparklingHeading = () => {
   return (
-    <div className="container">
+    <div className="home container">
       {/* Decorative Sparkly Bow */}
       {/* <div className="sparkly-bow">
         <div className="bow-left"></div>
