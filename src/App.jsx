@@ -1,10 +1,15 @@
 import React from "react";
-import SparklingHeading from "./components/Title/SparklingHead";
+import "./App.css";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 
-const App = () => {
-  return ( <div>
-    <SparklingHeading/> 
-  </div>);
-};
+function App() {
+  return (
+    <div>
+      <Hero />
+      <Header />
+    </div>
+  );
+}
 
 export default App;
