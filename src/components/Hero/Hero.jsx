@@ -13,7 +13,7 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          Hey Ladies 
+          Hey Ladies
         </motion.h1>
         <motion.p
           className="hero-text"
@@ -21,7 +21,8 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Dream big. Stay Positive. Welcome to the Self-Love Club 
+          Dream big. Stay Positive.
+          <br /> Welcome to the Self-Love Club
         </motion.p>
         <motion.button
           className="hero-button"
