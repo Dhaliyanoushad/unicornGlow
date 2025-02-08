@@ -1,0 +1,117 @@
+/* 🌸 Chat Header - Centered with a Stylish Look */
+.chat-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chat-header h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.chat-header p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* ✨ Chic Chat Container */
+.chat-container {
+  width: 100%;
+  max-width: 1100px; /* Keeps it compact */
+  background: linear-gradient(135deg, #f7f1ec, #f9e7e7); /* Soft gradient */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+/* 📝 Messages - Clean Bubbles */
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  padding: 15px;
+  max-height: 70vh;
+  word-wrap: break-word;
+  scrollbar-width: thin;
+  scrollbar-color: #e4b1ab transparent;
+}
+
+/* 🌟 User Messages - Chic Blue */
+.user {
+  align-self: flex-end;
+  background: #4a90e2;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px 15px 0px 15px;
+  max-width: 75%;
+  font-size: 14px;
+  word-wrap: break-word;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 💕 Bot Messages - Soft Pink */
+.bot {
+  align-self: flex-start;
+  background: #f3d6d6;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 15px 15px 15px 0px;
+  max-width: 75%;
+  font-size: 14px;
+  word-wrap: break-word;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 🎀 Input Container - Minimal & Chic */
+.input-container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: white;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  border-radius: 0 0 15px 15px;
+}
+
+/* 💬 Input Field */
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #e4b1ab;
+  box-shadow: 0px 0px 8px rgba(228, 177, 171, 0.5);
+}
+
+/* 🚀 Send Button - Soft & Rounded */
+button {
+  padding: 12px 18px;
+  border: none;
+  background: #e4b1ab;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background: #d89a95;
+  transform: scale(1.05);
+}
