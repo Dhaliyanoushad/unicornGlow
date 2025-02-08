@@ -14,7 +14,7 @@
 }
 
 .dark-nav {
-  background: #959ef1;
+  background: #dac9bb;
   transition: 1s;
 }
 
@@ -46,7 +46,8 @@ ul li:hover {
 }
 
 .mood-btn {
-  background: olive;
+  width: 100%;
+  background: #c2e0ee;
   color: black;
   border: none;
   padding: 12px 20px;
@@ -59,7 +60,7 @@ ul li:hover {
 }
 
 .mood-btn:hover {
-  background: orange;
+  background: #fbdcdc;
   transform: scale(1.1);
 }
 
