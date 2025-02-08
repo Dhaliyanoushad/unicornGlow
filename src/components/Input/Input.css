@@ -1,0 +1,121 @@
+/* 🌸 Color Palette */
+:root {
+  --beige: #DAC9BB;
+  --light-beige: #EBDDCC;
+  --off-white: #FFEFE4;
+  --soft-blue: #C2E0EE;
+  --soft-pink: #FBDCDC;
+  --text-color: #3A3A3A;
+}
+
+/* 🌟 Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, var(--off-white), var(--soft-blue));
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* 🏡 Input Form Container */
+.recipe-container {
+  background: rgba(255, 239, 228, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 600px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+/* 🎤 Form Input Styles */
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.input-box {
+  padding: 12px;
+  border: 2px solid var(--beige);
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-box:focus {
+  border-color: var(--soft-pink);
+  box-shadow: 0px 0px 8px rgba(251, 220, 220, 0.7);
+}
+
+/* 🎨 Submit Button */
+.submit-btn {
+  background: var(--soft-blue);
+  color: black;
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.submit-btn:hover {
+  background: var(--soft-pink);
+  transform: scale(1.05);
+}
+
+/* 🍽️ Recipe Results */
+.recipe-results {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.recipe-card {
+  background: var(--light-beige);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+.recipe-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.recipe-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: var(--soft-blue);
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out;
+}
+
+.recipe-link:hover {
+  background: var(--soft-pink);
+}
+
+/* 📏 Responsive Styles */
+@media (max-width: 768px) {
+  .recipe-container {
+      width: 95%;
+      padding: 20px;
+  }
+}
