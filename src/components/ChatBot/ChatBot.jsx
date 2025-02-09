@@ -1,11 +1,10 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import { getGeminiResponse } from "./geminiApi";
 import "./ChatBot.css";
 
 const MentalHealthChatbot = () => {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
-  const messagesEndRef = useRef(null);
 
   const handleSend = async () => {
     if (!input.trim()) return;
@@ -19,11 +18,6 @@ const MentalHealthChatbot = () => {
     setInput("");
   };
 
-  // 🔹 Auto-scroll to the latest message
-  useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
-
   return (
     <div className="chatbot chat-container">
       {/* 🌸 Title & Description */}
@@ -35,15 +29,16 @@ const MentalHealthChatbot = () => {
         </p>
       </div>
 
+      {/* Chat Messages */}
       <div className="messages">
         {messages.map((msg, index) => (
           <div key={index} className={msg.role}>
             {msg.text}
           </div>
         ))}
-        <div ref={messagesEndRef} /> {/* 🔹 Invisible div for auto-scroll */}
       </div>
 
+      {/* Input Box */}
       <div className="input-container">
         <input
           type="text"
@@ -54,7 +49,6 @@ const MentalHealthChatbot = () => {
             if (e.key === "Enter") handleSend();
           }}
         />
-        <button onClick={handleSend}>Send</button>
       </div>
     </div>
   );
