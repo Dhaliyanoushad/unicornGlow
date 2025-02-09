@@ -264,7 +264,7 @@ const MoodSongs = () => {
   };
 
   return (
-    <div className="mood-container">
+    <div className="listen mood-container">
       <h2>🎵 Pick a Mood 🎵</h2>
       <select
         onChange={(e) => setSelectedMood(e.target.value)}

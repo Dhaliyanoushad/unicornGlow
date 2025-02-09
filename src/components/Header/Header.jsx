@@ -50,6 +50,11 @@ const Header = () => {
           </Link>
         </li>
         <li>
+          <Link to="listen" smooth={true} offset={-260} duration={500}>
+            Listen
+          </Link>
+        </li>
+        <li>
           <Link
             className="mood-btn"
             to="mood"
