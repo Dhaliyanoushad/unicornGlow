@@ -45,8 +45,8 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link to="chatbot" smooth={true} offset={-260} duration={500}>
-            ChatBot
+          <Link to="mood" smooth={true} offset={-260} duration={500}>
+            Mood?
           </Link>
         </li>
         <li>
@@ -57,12 +57,12 @@ const Header = () => {
         <li>
           <Link
             className="mood-btn"
-            to="mood"
+            to="chatbot"
             smooth={true}
             offset={-260}
             duration={500}
           >
-            Select Mood
+            ChatBot
           </Link>
         </li>
       </ul>
