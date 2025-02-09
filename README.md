@@ -55,18 +55,26 @@ For Software:
 
 # Installation
 
-[# Clone the repository
-git clone [your-repo-link]
-cd [your-project-folder]
+1. Clone the repository:
 
-# Install dependencies
+   ```bash
+   git clone https://github.com/Dhaliyanoushad/unicornGlow.git
+   cd unicornGlow
+   ```
 
-npm install]
+2. Install dependencies:
 
-# Run
+   ```bash
+   npm install
+   ```
 
-[# Start the development server
-npm run dev]
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser: Visit [http://localhost:5173](http://localhost:5173).
 
 # Project Documentation
 
