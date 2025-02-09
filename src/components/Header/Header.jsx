@@ -21,7 +21,7 @@ const Header = () => {
     <nav className={`navbar ${sticky ? "dark-nav" : ""}`}>
       <div className="logo-container">
         <img src={logo} alt="" className="logo" />
-        <h1 className="logoname">UnicornGlow</h1>
+        <h1 className="logoname">GlowSync</h1>
       </div>
       <ul>
         <li>

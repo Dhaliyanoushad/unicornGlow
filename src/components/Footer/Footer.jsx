@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="footer-copyright">
-          © 2023 UnicornGlow. All rights reserved.
+          © 2023 GlowSync. All rights reserved.
         </p>
       </div>
     </footer>
