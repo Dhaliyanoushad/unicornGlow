@@ -98,7 +98,7 @@ Add caption explaining your workflow
 
 # Build Photos
 
-![Team](images/team.jpeg)
+![Team](images/teaam.jpeg)
 
 ![Components](Add photo of your components here)
 About,ChatBot,Header,Hero,Input,Login,Mood,MoodSongs,signup,Title,Tracker,Waves
