@@ -12,11 +12,11 @@
 
 ### Hosted Project Link
 
-[[mention your project hosted project link here](https://glowsync.netlify.app/)]
+[GlowSync](https://glowsync.netlify.app/)
 
 ### Project Description
 
-[UnicornGlow is a wellness-focused web app designed to support users in tracking their menstrual cycle, receiving personalized recipe suggestions based on their mood, and engaging with an AI chatbot for guidance. By integrating health tracking, nutrition, and AI-powered interactions, the app promotes a holistic approach to self-care and well-being.]
+[GlowSync is a wellness-focused web app designed to support women in tracking their menstrual cycle, receiving personalized recipe suggestions based on their mood, and engaging with an AI chatbot for guidance. By integrating health tracking, nutrition, and AI-powered interactions, the app promotes a holistic approach to self-care and well-being.]
 
 ### The Problem statement
 
@@ -31,7 +31,8 @@ UnicornGlow aims to address this gap by providing an all-in-one platform that se
 Menstrual Tracker – Helps users track their menstrual cycle, predict upcoming periods, and gain insights into their health patterns.
 Mood-Based Recipe Suggestions – Recommends personalized recipes based on the user's mood, ensuring nutritional balance and emotional well-being.
 AI Chatbot – Provides instant support, answers health-related queries, and offers wellness tips for a holistic self-care experience.
-By combining these features, UnicornGlow enhances convenience, promotes self-awareness, and encourages a proactive approach to health and wellness—all within a single, user-friendly platform.]
+By combining these features, UnicornGlow enhances convenience, promotes self-awareness, and encourages a proactive approach to health and wellness—all within a single, user-friendly platform.
+Mood-Based Music Recommendations – Suggests music tailored to the user's current mood, helping to elevate spirits, relax, or motivate.]
 
 ## Technical Details
 
@@ -41,7 +42,7 @@ For Software:
 
 - [Javascript]
 - [React]
-- [React Router, Framer Motion, Lucide React, React Scroll, Axios]
+- [React Router, Framer Motion, Lucide React, React Scroll, Axios,date-fns]
 - [Vite, ESLint, PostCSS]
 
 For Hardware:
