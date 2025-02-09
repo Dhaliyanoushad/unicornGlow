@@ -1,35 +1,21 @@
 /* 🌸 Color Palette */
 :root {
-  --beige: #DAC9BB;
-  --light-beige: #EBDDCC;
-  --off-white: #FFEFE4;
-  --soft-blue: #C2E0EE;
-  --soft-pink: #FBDCDC;
-  --text-color: #3A3A3A;
-}
-
-/* 🌟 Global Styles */
-body {
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to bottom right, var(--off-white), var(--soft-blue));
-  color: var(--text-color);
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
+  --light-green: #d8e2dc;
+  --peach: #ffe5d9;
+  --soft-pink: #ffcad4;
+  --rose: #f4acb7;
+  --mocha: #9d8189;
 }
 
 /* 🏡 Input Form Container */
 .recipe-container {
-  background: rgba(255, 239, 228, 0.9);
+  background: var(--peach);
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
   width: 90%;
   max-width: 600px;
-  margin-top: 120px;
+  margin: 120px auto;
   text-align: center;
 }
 
@@ -43,22 +29,24 @@ body {
 
 .input-box {
   padding: 12px;
-  border: 2px solid var(--beige);
+  border: 2px solid var(--light-green);
   border-radius: 8px;
   font-size: 16px;
   outline: none;
+  background: var(--soft-pink);
+  color: var(--mocha);
   transition: all 0.3s ease-in-out;
 }
 
 .input-box:focus {
-  border-color: var(--soft-pink);
-  box-shadow: 0px 0px 8px rgba(251, 220, 220, 0.7);
+  border-color: var(--rose);
+  box-shadow: 0px 0px 8px rgba(244, 172, 183, 0.7);
 }
 
 /* 🎨 Submit Button */
 .submit-btn {
-  background: var(--soft-blue);
-  color: black;
+  background: var(--light-green);
+  color: var(--mocha);
   border: none;
   padding: 12px 18px;
   font-size: 16px;
@@ -70,7 +58,7 @@ body {
 }
 
 .submit-btn:hover {
-  background: var(--soft-pink);
+  background: var(--rose);
   transform: scale(1.05);
 }
 
@@ -81,11 +69,12 @@ body {
 }
 
 .recipe-card {
-  background: var(--light-beige);
+  background: var(--soft-pink);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 15px;
+  color: var(--mocha);
 }
 
 .recipe-image {
@@ -94,28 +83,29 @@ body {
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
+  background: var(--light-green);
 }
 
 .recipe-link {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 12px;
-  background: var(--soft-blue);
+  background: var(--light-green);
   text-decoration: none;
-  color: black;
+  color: var(--mocha);
   font-weight: bold;
   border-radius: 6px;
   transition: background 0.3s ease-in-out;
 }
 
 .recipe-link:hover {
-  background: var(--soft-pink);
+  background: var(--rose);
 }
 
 /* 📏 Responsive Styles */
 @media (max-width: 768px) {
   .recipe-container {
-      width: 95%;
-      padding: 20px;
+    width: 95%;
+    padding: 20px;
   }
 }

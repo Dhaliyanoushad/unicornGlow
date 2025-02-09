@@ -14,7 +14,7 @@
 }
 
 .dark-nav {
-  background: #dac9bb;
+  background: #d8e2dc; /* Pale green-gray */
   transition: 1s;
 }
 
@@ -33,7 +33,7 @@ ul {
 
 ul li {
   text-decoration: none;
-  color: gray;
+  color: #9d8189; /* Muted mauve */
   font-size: 18px;
   font-weight: 500;
   padding: 8px 12px;
@@ -42,13 +42,13 @@ ul li {
 }
 
 ul li:hover {
-  color: #dd9292;
+  color: #f4acb7; /* Dusty pink */
 }
 
 .mood-btn {
   width: 100%;
-  background: #c2e0ee;
-  color: black;
+  background: #ffe5d9; /* Soft beige-pink */
+  color: #333;
   border: none;
   padding: 12px 20px;
   font-size: 16px;
@@ -60,7 +60,7 @@ ul li:hover {
 }
 
 .mood-btn:hover {
-  background: #fbdcdc;
+  background: #ffcad4; /* Light pink */
   transform: scale(1.1);
 }
 
@@ -68,13 +68,13 @@ ul li:hover {
   font-size: 26px;
   font-weight: bold;
   cursor: pointer;
-  color: #e4f5fc;
+  color: #f4acb7; /* Dusty pink */
   transition: color 0.3s ease-in-out;
   width: 140px;
 }
 
 .logoname:hover {
-  color: var(--soft-pink);
+  color: #9d8189; /* Muted mauve */
 }
 
 @media (max-width: 1000px) {
@@ -95,7 +95,7 @@ ul li:hover {
     top: 0;
     bottom: 0;
     right: 0px;
-    background: #212ea0;
+    background: #f4acb7; /* Dusty pink */
     z-index: -1;
     width: 200px;
     padding-top: 70px;

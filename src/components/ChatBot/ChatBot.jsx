@@ -25,7 +25,7 @@ const MentalHealthChatbot = () => {
   }, [messages]);
 
   return (
-    <div className="chat-container">
+    <div className="chatbot chat-container">
       {/* 🌸 Title & Description */}
       <div className="chat-header">
         <h1>🌿 Serenity Chat</h1>

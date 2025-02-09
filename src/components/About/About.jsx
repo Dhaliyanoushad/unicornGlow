@@ -9,16 +9,17 @@ const About = () => {
         <h3>About the App</h3>
         <h2>Supporting You Every Step of the Way</h2>
         <p>
-          This platform is designed to **help girls during their menstrual
-          cycle** by analyzing their mood and suggesting nourishing food recipes
-          accordingly. We understand that every cycle is different, and we aim
-          to provide **comfort, support, and guidance** to make you feel your
-          best.
+          This platform is designed to{" "}
+          <b>help girls during their menstrual cycle</b> by analyzing their mood
+          and suggesting nourishing food recipes accordingly. We understand that
+          every cycle is different, and we aim to provide{" "}
+          <b>comfort, support, and guidance</b> to make you feel your best.
         </p>
         <p>
-          Whether you're craving something **sweet, savory, or refreshing**, our
-          AI-powered recommendations will provide the **perfect food
-          suggestions** to help balance your mood and energy levels.
+          Whether you're craving something <b>sweet, savory, or refreshing</b>,
+          our AI-powered recommendations will provide the{" "}
+          <b>perfect food suggestions</b> to help balance your mood and energy
+          levels.
         </p>
       </div>{" "}
       <div className="about-left">

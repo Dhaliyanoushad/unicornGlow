@@ -1,19 +1,30 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
+import SparklingHeading from "./components/Title/SparklingHead";
+import Waves from "./components/Waves/Waves";
+import About from "./components/About/About";
+import ChatBot from "./components/ChatBot/ChatBot";
+import Tracker from "./components/Tracker/Tracker";
+import Input from "./components/Input/Input";
+import MoodSongs from "./components/MoodSongs/MoodSongs";
+import Footer from "./components/Footer/Footer";
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
       <SparklingHeading />
-      <Hero />
+      <Waves />
+      {/* <Hero /> */}
       <About />
-      <ChatBot />
       <Tracker />
+      <Input />
+      <ChatBot />
+      <MoodSongs />
+      <Footer />
     </>
   );
-}
+};
 
 export default App;

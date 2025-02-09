@@ -7,14 +7,14 @@
 .chat-header h1 {
   font-size: 26px;
   font-weight: bold;
-  color: #333;
+  color: #9d8189; /* Muted mauve from the palette */
   margin: 0;
   letter-spacing: 1px;
 }
 
 .chat-header p {
   font-size: 14px;
-  color: #666;
+  color: #154e2e; /* Soft pale green-gray */
   margin: 5px 0;
 }
 
@@ -22,7 +22,7 @@
 .chat-container {
   width: 100%;
   max-width: 1100px; /* Keeps it compact */
-  background: linear-gradient(135deg, #f7f1ec, #f9e7e7); /* Soft gradient */
+  background: linear-gradient(135deg, #ffe5d9, #ffcad4); /* Soft gradient */
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
@@ -42,14 +42,14 @@
   max-height: 70vh;
   word-wrap: break-word;
   scrollbar-width: thin;
-  scrollbar-color: #e4b1ab transparent;
+  scrollbar-color: #f4acb7 transparent; /* Dusty pink from the palette */
 }
 
 /* 🌟 User Messages - Chic Blue */
 .user {
   align-self: flex-end;
-  background: #4a90e2;
-  color: white;
+  background: #d8e2dc; /* Pale green-gray */
+  color: #333;
   padding: 10px 15px;
   border-radius: 15px 15px 0px 15px;
   max-width: 75%;
@@ -61,7 +61,7 @@
 /* 💕 Bot Messages - Soft Pink */
 .bot {
   align-self: flex-start;
-  background: #f3d6d6;
+  background: #ffe5d9; /* Soft beige-pink */
   color: #333;
   padding: 10px 15px;
   border-radius: 15px 15px 15px 0px;
@@ -76,8 +76,8 @@
   display: flex;
   gap: 10px;
   padding: 10px;
-  background: white;
-  border-top: 1px solid #ddd;
+  background: #ffcad4; /* Light pink */
+  border-top: 1px solid #f4acb7;
   width: 100%;
   border-radius: 0 0 15px 15px;
 }
@@ -87,22 +87,22 @@ input {
   flex: 1;
   padding: 12px;
   border-radius: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid #f4acb7; /* Dusty pink */
   font-size: 14px;
   outline: none;
   transition: 0.3s ease-in-out;
 }
 
 input:focus {
-  border-color: #e4b1ab;
-  box-shadow: 0px 0px 8px rgba(228, 177, 171, 0.5);
+  border-color: #f4acb7;
+  box-shadow: 0px 0px 8px rgba(244, 172, 183, 0.5);
 }
 
 /* 🚀 Send Button - Soft & Rounded */
 button {
   padding: 12px 18px;
   border: none;
-  background: #e4b1ab;
+  background: #f4acb7; /* Dusty pink */
   color: white;
   cursor: pointer;
   border-radius: 8px;
@@ -112,6 +112,6 @@ button {
 }
 
 button:hover {
-  background: #d89a95;
+  background: #9d8189; /* Muted mauve */
   transform: scale(1.05);
 }

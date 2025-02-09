@@ -3,9 +3,9 @@
 body {
   background: linear-gradient(
     to right,
-    #ffd6e0,
-    #ffe4e1
-  ); /* Soft pink gradient */
+    #ffcfd2,
+    #ffe5d9
+  ); /* Pink tones from the palette */
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
@@ -20,10 +20,10 @@ body {
   justify-content: space-between;
   width: 90%;
   max-width: 1200px;
-  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  background: rgba(255, 229, 217, 0.9); /* Semi-transparent #FFE5D9 */
   padding: 40px;
   border-radius: 20px;
-  box-shadow: 0 15px 25px rgba(255, 105, 180, 0.2); /* Pink shadow */
+  box-shadow: 0 15px 25px rgba(244, 172, 183, 0.2); /* Soft shadow using #F4ACB7 */
 }
 
 .about-left {
@@ -35,7 +35,7 @@ body {
   width: 80%;
   max-width: 200px;
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2); /* Pink shadow */
+  box-shadow: 0 5px 15px rgba(244, 172, 183, 0.2); /* Pink shadow using #F4ACB7 */
   transition: transform 0.3s ease;
 }
 
@@ -51,7 +51,7 @@ body {
 /* Heading Animations */
 .animated-heading {
   font-size: 36px;
-  color: #ff1493; /* Deep pink */
+  color: #9d8189; /* #9D8189 for headings */
   margin: 10px 0;
   position: relative;
   animation: bounce 1.5s infinite alternate ease-in-out;
@@ -77,18 +77,18 @@ body {
 .emoji-btn {
   font-size: 28px;
   padding: 15px;
-  background: #fff;
-  border: 2px solid #ff69b4; /* Hot pink border */
+  background: #d8e2dc; /* Background using #D8E2DC */
+  border: 2px solid #f4acb7; /* Border using #F4ACB7 */
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.2); /* Pink shadow */
+  box-shadow: 0 4px 10px rgba(244, 172, 183, 0.2); /* Shadow using #F4ACB7 */
 }
 
 .emoji-btn:hover {
   transform: scale(1.2);
-  background: #ffebf0; /* Light pink background */
-  box-shadow: 0 6px 15px rgba(255, 20, 147, 0.4); /* Deeper shadow on hover */
+  background: #ffcad4; /* Light pink hover effect using #FFCAD4 */
+  box-shadow: 0 6px 15px rgba(157, 129, 137, 0.4); /* Deep shadow using #9D8189 */
 }
 
 /* Floating Hearts Animation */
@@ -114,41 +114,41 @@ body {
 
 /* Period Tracker */
 .cycle-tracker {
-  background: #fff0f5; /* Soft pink background */
+  background: #ffe5d9; /* Background using #FFE5D9 */
   padding: 20px;
   border-radius: 15px;
   text-align: center;
   margin: 20px 0;
-  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2); /* Pink shadow */
+  box-shadow: 0 5px 15px rgba(244, 172, 183, 0.2); /* Shadow using #F4ACB7 */
 }
 
 .days-left {
   font-size: 24px;
   font-weight: bold;
-  color: #ff1493; /* Deep pink */
+  color: #f4acb7; /* Text color using #F4ACB7 */
 }
 
 /* Self-Care & Affirmations */
 .self-care,
 .affirmation {
-  background: #fff8fa; /* Light pink background */
+  background: #d8e2dc; /* Light pink background using #D8E2DC */
   padding: 20px;
   border-radius: 15px;
   text-align: center;
   margin: 20px 0;
-  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2); /* Pink shadow */
+  box-shadow: 0 5px 15px rgba(157, 129, 137, 0.2); /* Shadow using #9D8189 */
 }
 
 .self-care h4,
 .affirmation h4 {
-  color: #ff1493; /* Deep pink */
+  color: #9d8189; /* Deep text color using #9D8189 */
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .self-care p,
 .affirmation p {
-  color: #555;
+  color: #555; /* Neutral text */
   font-size: 14px;
   line-height: 1.6;
 }

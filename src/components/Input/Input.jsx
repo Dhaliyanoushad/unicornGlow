@@ -10,7 +10,7 @@ export default function Input() {
   const fetchRecipes = async () => {
     setLoading(true);
     try {
-      const apiKey = "3d876392f19344c68769ee4002e9bceb";  // Replace with your actual Spoonacular API key
+      const apiKey = "3d876392f19344c68769ee4002e9bceb"; // Replace with your actual Spoonacular API key
       const apiUrl = `https://api.spoonacular.com/recipes/complexSearch?query=${mood}&apiKey=${apiKey}&number=5`;
 
       const response = await fetch(apiUrl);
@@ -40,7 +40,7 @@ export default function Input() {
   };
 
   return (
-    <div className="recipe-container">
+    <div className="recipes recipe-container">
       <h2>Find Recipes Based on Your Mood</h2>
       <form onSubmit={handleSubmit} className="input-form">
         <input

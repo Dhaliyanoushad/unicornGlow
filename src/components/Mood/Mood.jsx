@@ -74,7 +74,7 @@ const Mood = ({ days }) => {
   };
 
   return (
-    <div className="about">
+    <div className="mood about">
       {/* AI Image */}
       <div className="about-left">
         <img src={aiImage} alt="Self-care illustration" className="aiImage" />
@@ -106,7 +106,7 @@ const Mood = ({ days }) => {
           </div>
           {mood && (
             <p className="recommendation">
-              You’re feeling **{mood}**. Try **{recommendation}** to feel
+              You’re feeling <b>{mood}</b> . Try <b>{recommendation}</b> to feel
               better! 🥗
             </p>
           )}

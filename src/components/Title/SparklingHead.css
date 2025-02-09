@@ -9,51 +9,10 @@
   justify-content: center;
   gap: 10px;
   min-height: 100vh;
-  background-color: #ffe4e1; /* Soft pink background */
+  background-color: #ffe5d9; /* Light peach background */
   position: relative;
   overflow: hidden;
-}
-
-/* Sparkly Big Bow Decoration */
-.sparkly-bow {
-  position: relative;
-  margin-bottom: 20px;
-  animation: sparkleBow 2s infinite alternate;
-}
-
-.bow-left,
-.bow-right {
-  width: 100px;
-  height: 80px;
-  background-color: #ff69b4; /* Hot pink */
-  position: absolute;
-  top: 0;
-  border-radius: 50%;
-  box-shadow: 0px 0px 20px rgba(255, 105, 180, 0.8);
-  animation: sparkleBow 1.5s infinite alternate;
-}
-
-.bow-left {
-  left: -80px;
-  transform: rotate(-40deg);
-}
-
-.bow-right {
-  right: -80px;
-  transform: rotate(40deg);
-}
-
-.knot {
-  width: 80px;
-  height: 80px;
-  background-color: #ff1493; /* Deep pink */
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  top: 10px;
-  transform: translateX(-50%);
-  box-shadow: 0px 0px 20px rgba(255, 20, 147, 0.8);
-  animation: sparkleKnot 2s infinite alternate;
+  box-shadow: 0; /* Light shadow for separation */
 }
 
 .bow {
@@ -76,9 +35,9 @@
   font-size: 6.5rem;
   font-weight: bold;
   font-family: "Gafiya", cursive; /* Apply Gafiya Font */
-  color: #ff1493;
+  color: #db7080; /* Deep pink */
   position: relative;
-  text-shadow: 0px 0px 20px #ff69b4, 0px 0px 30px #ff1493;
+  text-shadow: 0px 0px 20px #ffcad4, 0px 0px 30px #f4acb7;
   animation: glow 1.5s infinite alternate;
 }
 
@@ -94,7 +53,7 @@
   position: absolute;
   width: 6px;
   height: 6px;
-  background-color: white;
+  background-color: #d8e2dc; /* Pale green */
   border-radius: 50%;
   animation: sparkleTextEffect 2s infinite;
 }
@@ -169,10 +128,10 @@
 /* Glowing text animation */
 @keyframes glow {
   0% {
-    text-shadow: 0px 0px 5px #ff69b4;
+    text-shadow: 0px 0px 5px #ffcad4;
   }
   100% {
-    text-shadow: 0px 0px 15px #ff1493;
+    text-shadow: 0px 0px 15px #f4acb7;
   }
 }
 
@@ -188,7 +147,7 @@
   position: absolute;
   width: 8px;
   height: 8px;
-  background-color: white;
+  background-color: #d8e2dc; /* Pale green */
   border-radius: 50%;
   opacity: 0;
   animation: sparkleAnimation 2s infinite;
@@ -264,18 +223,18 @@
 /* Sparkling Bow Animation */
 @keyframes sparkleBow {
   0% {
-    box-shadow: 0px 0px 10px rgba(255, 105, 180, 0.8);
+    box-shadow: 0px 0px 10px rgba(244, 172, 183, 0.8);
   }
   100% {
-    box-shadow: 0px 0px 25px rgba(255, 20, 147, 0.9);
+    box-shadow: 0px 0px 25px rgba(244, 172, 183, 0.9);
   }
 }
 
 @keyframes sparkleKnot {
   0% {
-    box-shadow: 0px 0px 10px rgba(255, 20, 147, 0.8);
+    box-shadow: 0px 0px 10px rgba(255, 202, 212, 0.8);
   }
   100% {
-    box-shadow: 0px 0px 25px rgba(255, 0, 147, 1);
+    box-shadow: 0px 0px 25px rgba(255, 202, 212, 1);
   }
 }

@@ -1,68 +1,68 @@
 .about {
-    margin: 100px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    background-color: #ffd6e0; /* Soft pastel pink background */
-    padding: 50px;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  .about-left {
-    flex-basis: 30%;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  background-color: #ffe5d9; /* Soft beige-pink from the palette */
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-left {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.aiImage {
+  width: 80%;
+  max-width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-right {
+  flex-basis: 65%;
+}
+
+.about h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #f4acb7; /* Dusty pink from the palette */
+  text-transform: uppercase;
+}
+
+.about h2 {
+  font-size: 32px;
+  color: #9d8189; /* Muted mauve from the palette */
+  margin: 10px 0;
+}
+
+.about p {
+  color: #4d4d4d; /* Neutral gray for readability */
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .about {
+    flex-direction: column;
     text-align: center;
+    padding: 30px;
   }
-  
+
+  .about-left {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
   .aiImage {
-    width: 80%;
-    max-width: 200px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 150px;
   }
-  
+
   .about-right {
-    flex-basis: 65%;
+    flex-basis: 100%;
   }
-  
-  .about h3 {
-    font-weight: 600;
-    font-size: 18px;
-    color: #d63384; /* Soft pinkish-purple */
-    text-transform: uppercase;
-  }
-  
-  .about h2 {
-    font-size: 32px;
-    color: #800f2f; /* Deep rose color */
-    margin: 10px 0;
-  }
-  
-  .about p {
-    color: #4d4d4d;
-    margin-bottom: 15px;
-    font-size: 16px;
-    line-height: 1.6;
-  }
-  
-  @media (max-width: 800px) {
-    .about {
-      flex-direction: column;
-      text-align: center;
-      padding: 30px;
-    }
-  
-    .about-left {
-      flex-basis: 100%;
-      margin-bottom: 20px;
-    }
-  
-    .aiImage {
-      max-width: 150px;
-    }
-  
-    .about-right {
-      flex-basis: 100%;
-    }
-  }   
+}

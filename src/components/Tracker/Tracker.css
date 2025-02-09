@@ -1,33 +1,29 @@
 /* Container */
 .tracker-container {
-  background: linear-gradient(
-    135deg,
-    #fff0f5,
-    #ffe6f2
-  ); /* Soft pink gradient */
+  background: linear-gradient(135deg, #d8e2dc, #ffe5d9); /* Palette gradient */
   padding: 25px;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.2); /* Light pink shadow */
+  box-shadow: 0 4px 15px rgba(157, 129, 137, 0.2); /* Soft shadow */
   text-align: center;
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid #ffccd5; /* Light pink border */
+  border: 1px solid #f4acb7; /* Palette border */
 }
 
 /* Title */
 .tracker-title {
   font-size: 24px;
   font-weight: bold;
-  color: #ff69b4; /* Hot pink */
+  color: #f4acb7; /* Palette color */
   margin-bottom: 10px;
-  text-shadow: 1px 1px 2px rgba(255, 105, 180, 0.3); /* Subtle pink shadow */
+  text-shadow: 1px 1px 2px rgba(157, 129, 137, 0.3); /* Subtle shadow */
 }
 
 /* Subtext */
 .tracker-subtext {
   font-size: 14px;
-  color: #ff1493; /* Deep pink */
+  color: #9d8189; /* Palette color */
   margin-bottom: 15px;
 }
 
@@ -37,23 +33,23 @@
   margin: 0 auto;
   padding: 10px;
   font-size: 14px;
-  border: 2px solid #ff69b4; /* Hot pink border */
+  border: 2px solid #f4acb7; /* Palette border */
   border-radius: 8px;
   outline: none;
-  background-color: #fff;
-  color: #ff1493; /* Deep pink */
+  background-color: #ffe5d9; /* Palette background */
+  color: #9d8189; /* Palette color */
   transition: border-color 0.3s ease;
 }
 
 .tracker-input:focus {
-  border-color: #ff1493; /* Deep pink on focus */
+  border-color: #9d8189; /* Palette focus color */
 }
 
 /* Info Section */
 .tracker-info {
   margin-top: 20px;
   font-size: 14px;
-  color: #ff69b4; /* Hot pink */
+  color: #f4acb7; /* Palette color */
 }
 
 .tracker-info p {
@@ -69,17 +65,17 @@
   width: 100%;
   height: 10px;
   border-radius: 5px;
-  background-color: #ffe4e1; /* Misty rose */
-  border: 1px solid #ff69b4; /* Hot pink border */
+  background-color: #ffcad4; /* Palette color */
+  border: 1px solid #f4acb7; /* Palette border */
 }
 
 .tracker-progress::-webkit-progress-bar {
-  background-color: #ffe4e1; /* Misty rose */
+  background-color: #ffcad4; /* Palette color */
   border-radius: 5px;
 }
 
 .tracker-progress::-webkit-progress-value {
-  background-color: #ff69b4; /* Hot pink progress */
+  background-color: #f4acb7; /* Palette progress */
   border-radius: 5px;
 }
 
@@ -87,14 +83,14 @@
 .tracker-days-remaining {
   font-size: 16px;
   font-weight: bold;
-  color: #ff1493; /* Deep pink */
+  color: #9d8189; /* Palette color */
   margin-top: 10px;
 }
 
 /* Reset Button */
 .tracker-button {
   margin-top: 15px;
-  background-color: #ff69b4; /* Hot pink */
+  background-color: #f4acb7; /* Palette button */
   color: white;
   padding: 10px 15px;
   border: none;
@@ -105,6 +101,6 @@
 }
 
 .tracker-button:hover {
-  background-color: #ff1493; /* Deep pink on hover */
+  background-color: #9d8189; /* Palette hover */
   transform: scale(1.05); /* Slight zoom effect */
 }

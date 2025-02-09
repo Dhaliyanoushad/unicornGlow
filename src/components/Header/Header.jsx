@@ -30,29 +30,29 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link to="hero" smooth={true} offset={-260} duration={500}>
-            About Us
+          <Link to="about" smooth={true} offset={-260} duration={500}>
+            About
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} offset={-150} duration={500}>
+          <Link to="tracker" smooth={true} offset={-150} duration={500}>
+            Tracker
+          </Link>
+        </li>
+        <li>
+          <Link to="recipes" smooth={true} offset={-260} duration={500}>
             Recipes
           </Link>
         </li>
         <li>
-          <Link to="campus" smooth={true} offset={-260} duration={500}>
-            Testimonials
-          </Link>
-        </li>
-        <li>
-          <Link to="testi" smooth={true} offset={-260} duration={500}>
-            Contact
+          <Link to="chatbot" smooth={true} offset={-260} duration={500}>
+            ChatBot
           </Link>
         </li>
         <li>
           <Link
             className="mood-btn"
-            to="contact"
+            to="mood"
             smooth={true}
             offset={-260}
             duration={500}
