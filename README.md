@@ -149,8 +149,10 @@ Explain the final build
 
 # Video
 
-![Demo Video](https://drive.google.com/file/d/1wkdS3xFU8wyy8ex4mccDSV6D0ncW2Tp6/view)  
+[Demo Video](https://drive.google.com/file/d/1wkdS3xFU8wyy8ex4mccDSV6D0ncW2Tp6/view)  
 This video demonstrates the key features and functionalities of the project, including [brief description of what the video showcases].
+
+
 
 ## Team Contributions
 
