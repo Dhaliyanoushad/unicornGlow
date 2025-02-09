@@ -2,29 +2,36 @@
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [HackHers]
 
 ### Team Members
 
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Fathimath Dhaliya Noushad VP] - [CUSAT,SOE]
+- Member 2: [Ranjana KP] - [CUSAT,SOE]
+- Member 3: [Fathima Rasha Rahim] - [CUSAT,SOE]
 
 ### Hosted Project Link
 
-[mention your project hosted project link here]
+[[mention your project hosted project link here](https://glowsync.netlify.app/)]
 
 ### Project Description
 
-[2-3 lines about what your project does]
+[UnicornGlow is a wellness-focused web app designed to support users in tracking their menstrual cycle, receiving personalized recipe suggestions based on their mood, and engaging with an AI chatbot for guidance. By integrating health tracking, nutrition, and AI-powered interactions, the app promotes a holistic approach to self-care and well-being.]
 
 ### The Problem statement
 
-[What ridiculous problem are you solving?]
+[Many individuals struggle with managing their menstrual health, finding mood-appropriate nutrition, and accessing personalized wellness support in one place. Existing solutions often lack integration, requiring users to switch between multiple apps for tracking cycles, finding suitable recipes, and seeking guidance. This fragmentation can lead to inconvenience, lack of engagement, and missed opportunities for better self-care.
+
+UnicornGlow aims to address this gap by providing an all-in-one platform that seamlessly combines menstrual tracking, AI-powered mood-based recipe suggestions, and an intelligent chatbot for personalized wellness support.]
 
 ### The Solution
 
-[How are you solving it? Keep it fun!]
+[UnicornGlow offers a comprehensive digital wellness platform that integrates menstrual tracking, mood-based recipe suggestions, and an AI-powered chatbot to support users in managing their health and well-being.
+
+Menstrual Tracker – Helps users track their menstrual cycle, predict upcoming periods, and gain insights into their health patterns.
+Mood-Based Recipe Suggestions – Recommends personalized recipes based on the user's mood, ensuring nutritional balance and emotional well-being.
+AI Chatbot – Provides instant support, answers health-related queries, and offers wellness tips for a holistic self-care experience.
+By combining these features, UnicornGlow enhances convenience, promotes self-awareness, and encourages a proactive approach to health and wellness—all within a single, user-friendly platform.]
 
 ## Technical Details
 
@@ -32,16 +39,14 @@
 
 For Software:
 
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [Javascript]
+- [React]
+- [React Router, Framer Motion, Lucide React, React Scroll, Axios]
+- [Vite, ESLint, PostCSS]
 
 For Hardware:
 
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [No hardware components are required.]
 
 ### Implementation
 
@@ -49,11 +54,18 @@ For Software:
 
 # Installation
 
-[commands]
+[# Clone the repository
+git clone [your-repo-link]
+cd [your-project-folder]
+
+# Install dependencies
+
+npm install]
 
 # Run
 
-[commands]
+[# Start the development server
+npm run dev]
 
 ### Project Documentation
 
@@ -61,49 +73,39 @@ For Software:
 
 # Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-_Add caption explaining what this shows_
+![Screenshot1](Menstrual Tracker)
+This screenshot displays the user interface for tracking menstrual cycles, allowing users to log their periods and symptoms.
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-_Add caption explaining what this shows_
+This image showcases personalized recipe recommendations based on the user's current mood input.
 
 ![Screenshot3](Add screenshot 3 here with proper name)
-_Add caption explaining what this shows_
+This screenshot illustrates the AI chatbot assisting users with personalized support and information.
 
 # Diagrams
 
 ![Workflow](Add your workflow/architecture diagram here)
-_Add caption explaining your workflow_
-
-For Hardware:
-
-# Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-_Add caption explaining connections_
-
-![Schematic](Add your schematic diagram here)
-_Add caption explaining the schematic_
+Add caption explaining your workflow
 
 # Build Photos
 
 ![Team](Add photo of your team here)
 
 ![Components](Add photo of your components here)
-_List out all components shown_
+About,ChatBot,Header,Hero,Input,Login,Mood,MoodSongs,signup,Title,Tracker,Waves
 
 ![Build](Add photos of build process here)
-_Explain the build steps_
+Explain the build steps
 
 ![Final](Add photo of final product here)
-_Explain the final build_
+Explain the final build
 
 ### Project Demo
 
 # Video
 
 [Add your demo video link here]
-_Explain what the video demonstrates_
+Explain what the video demonstrates
 
 # Additional Demos
 
@@ -111,9 +113,9 @@ _Explain what the video demonstrates_
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Fathimath Dhaliya Noushad VP]: [Specific contributions]
+- [Fathima Rasha Rahim]: [Specific contributions]
+- [Ranjana KP]: [Specific contributions]
 
 ---
 
