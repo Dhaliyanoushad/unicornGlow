@@ -101,6 +101,19 @@ Add caption explaining your workflow
 ![Team](images/teaam.jpeg)
 
 ![Components](Add photo of your components here)
+![Header](images/compo/Header.png)
+![Header](images/compo/Header2.png)
+![Hero](images/compo/Hero.png)
+![Waves](images/compo/Waves.png)
+![About](images/compo/About.png)
+![Tracker](images/compo/Tracker.png)
+![MoodTracker](images/compo/Mood.png)
+![Recipe](images/compo/food.png)
+![Listen](images/compo/song.png)
+![Listen](images/compo/song2.png)
+![ChatBot](images/compo/chat.png)
+![Footer](images/compo/footer.png)
+
 About,ChatBot,Header,Hero,Input,Login,Mood,MoodSongs,signup,Title,Tracker,Waves
 
 ![Build](Add photos of build process here)
