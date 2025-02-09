@@ -100,21 +100,53 @@ Add caption explaining your workflow
 
 ![Team](images/teaam.jpeg)
 
-![Components](Add photo of your components here)
-![Header](images/compo/Header.png)
-![Header](images/compo/Header2.png)
-![Hero](images/compo/Hero.png)
-![Waves](images/compo/Waves.png)
-![About](images/compo/About.png)
-![Tracker](images/compo/tracker.png)
-![MoodTracker](images/compo/mood.png)
-![Recipe](images/compo/food.png)
-![Listen](images/compo/song.png)
-![Listen](images/compo/song2.png)
-![ChatBot](images/compo/chat.png)
-![Footer](images/compo/footer.png)
+# Build
 
-About,ChatBot,Header,Hero,Input,Login,Mood,MoodSongs,signup,Title,Tracker,Waves
+![Team](images/teaaam.jpeg)
+
+## Components
+
+### Header
+
+![Header](images/compo/Header.png)  
+![Header](images/compo/Header2.png)
+
+### Hero
+
+![Hero](images/compo/Hero.png)
+
+### Waves
+
+![Waves](images/compo/Waves.png)
+
+### About
+
+![About](images/compo/About.png)
+
+### Tracker
+
+![Tracker](images/compo/tracker.png)
+
+### Mood Tracker
+
+![MoodTracker](images/compo/mood.png)
+
+### Recipe
+
+![Recipe](images/compo/food.png)
+
+### Listen
+
+![Listen](images/compo/song.png)  
+![Listen](images/compo/song2.png)
+
+### ChatBot
+
+![ChatBot](images/compo/chat.png)
+
+### Footer
+
+![Footer](images/compo/footer.png)
 
 ![Build](Add photos of build process here)
 Explain the build steps
