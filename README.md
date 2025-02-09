@@ -68,20 +68,20 @@ npm install]
 [# Start the development server
 npm run dev]
 
-### Project Documentation
+# Project Documentation
 
 For Software:
 
-# Screenshots (Add at least 3)
+## Screenshots (Add at least 3)
 
-![Screenshot1](Menstrual Tracker)
-This screenshot displays the user interface for tracking menstrual cycles, allowing users to log their periods and symptoms.
+![Screenshot1: Menstrual Tracker](images/tracker.png)
+_This screenshot displays the user interface for tracking menstrual cycles, allowing users to log their periods and symptoms._
 
-![Screenshot2](Add screenshot 2 here with proper name)
-This image showcases personalized recipe recommendations based on the user's current mood input.
+![Screenshot2: Mood-Based Recipe Recommendations](images/food.png)
+_This image showcases personalized recipe recommendations based on the user's current mood input._
 
-![Screenshot3](Add screenshot 3 here with proper name)
-This screenshot illustrates the AI chatbot assisting users with personalized support and information.
+![Screenshot3: AI Chatbot Assistance](images/chatbot.png)
+_This screenshot illustrates the AI chatbot assisting users with personalized support and information._
 
 # Diagrams
 
