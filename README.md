@@ -78,7 +78,7 @@ For Software:
 
 # Team
 
-![Team](images/teaaam.jpeg)
+![Team](images/teaam.jpeg)
 
 # Project Documentation
 
