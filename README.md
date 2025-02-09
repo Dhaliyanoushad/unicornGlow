@@ -91,19 +91,6 @@ _This image showcases personalized recipe recommendations based on the user's cu
 ![Screenshot3: AI Chatbot Assistance](images/chatbot.png)
 _This screenshot illustrates the AI chatbot assisting users with personalized support and information._
 
-# Diagrams
-
-![Workflow](Add your workflow/architecture diagram here)
-Add caption explaining your workflow
-
-# Build Photos
-
-![Team](images/teaam.jpeg)
-
-# Build
-
-![Team](images/teaaam.jpeg)
-
 ## Components
 
 ### Header
@@ -148,29 +135,17 @@ Add caption explaining your workflow
 
 ![Footer](images/compo/footer.png)
 
-![Build](Add photos of build process here)
-Explain the build steps
-
-![Final](Add photo of final product here)
-Explain the final build
-
 ### Project Demo
 
 # Video
 
-[Add your demo video link here]
-Explain what the video demonstrates
-
-# Additional Demos
-
-[Add any extra demo materials/links]
+![Demo Video](https://drive.google.com/file/d/1wkdS3xFU8wyy8ex4mccDSV6D0ncW2Tp6/view)  
+This video demonstrates the key features and functionalities of the project, including [brief description of what the video showcases].
 
 ## Team Contributions
 
-- [Fathimath Dhaliya Noushad VP]: [Specific contributions]
-- [Fathima Rasha Rahim]: [Specific contributions]
-- [Ranjana KP]: [Specific contributions]
-
----
+- [Fathimath Dhaliya Noushad VP]: [Menstrual Tracker,Chatbot]
+- [Fathima Rasha Rahim]: [Food Recommendation,Header]
+- [Ranjana KP]: [Hero,About,Songs Recommendation]
 
 Made with ❤️ at TinkerHub
