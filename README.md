@@ -76,6 +76,10 @@ For Software:
 
 4. Open your browser: Visit [http://localhost:5173](http://localhost:5173).
 
+# Team
+
+![Team](images/teaaam.jpeg)
+
 # Project Documentation
 
 For Software:
@@ -134,6 +138,12 @@ _This screenshot illustrates the AI chatbot assisting users with personalized su
 ### Footer
 
 ![Footer](images/compo/footer.png)
+
+![Build](Add photos of build process here)
+Explain the build steps
+
+![Final](Add photo of final product here)
+Explain the final build
 
 ### Project Demo
 
