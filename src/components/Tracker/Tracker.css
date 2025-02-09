@@ -5,8 +5,8 @@
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(157, 129, 137, 0.2); /* Soft shadow */
   text-align: center;
-  max-width: 400px;
   width: 100%;
+  max-width: 1100px;
   margin: 0 auto;
   border: 1px solid #f4acb7; /* Palette border */
 }

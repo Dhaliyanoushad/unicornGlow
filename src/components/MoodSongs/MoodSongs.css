@@ -1,9 +1,10 @@
 .mood-container {
+  width: 100%;
+  max-width: 1100px;
   text-align: center;
   padding: 40px;
   background: linear-gradient(to bottom, #ffcad4, #f4acb7);
   border-radius: 20px;
-  max-width: 800px; /* Wider container */
   margin: auto;
   box-shadow: 10px 10px 30px rgba(157, 129, 137, 0.2); /* Deeper shadow for chic look */
   border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for depth */

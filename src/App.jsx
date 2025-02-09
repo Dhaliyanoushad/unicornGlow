@@ -20,8 +20,8 @@ const App = () => {
       <About />
       <Tracker />
       <Input />
-      <ChatBot />
       <MoodSongs />
+      <ChatBot />
       <Footer />
     </>
   );

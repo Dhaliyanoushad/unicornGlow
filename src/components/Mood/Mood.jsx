@@ -5,7 +5,6 @@ import aiImage from "../../assets/aiImage2.webp"; // Replace with your AI-genera
 const Mood = ({ days }) => {
   const [mood, setMood] = useState("");
   const [recommendation, setRecommendation] = useState("");
-  const [daysLeft, setDaysLeft] = useState(5); // Example: 5 days until next cycle
   const [selfCareTip, setSelfCareTip] = useState("");
   const [affirmation, setAffirmation] = useState("");
 
@@ -84,11 +83,13 @@ const Mood = ({ days }) => {
       <div className="about-right">
         <h3 className="fade-in">FOR YOU</h3>
 
-        {/* Period Tracker */}
-        <div className="cycle-tracker">
-          <h4>Next Cycle in:</h4>
-          <p className="days-left">{days} days</p>
-        </div>
+        {/* ✅ Cycle Tracker - Only displays if 'days' is a valid number */}
+        {typeof days === "number" && days >= 0 && (
+          <div className="cycle-tracker">
+            <h4>Next Cycle in:</h4>
+            <p className="days-left">{days} days</p>
+          </div>
+        )}
 
         {/* Mood Tracker */}
         <div className="mood-section">
@@ -106,7 +107,7 @@ const Mood = ({ days }) => {
           </div>
           {mood && (
             <p className="recommendation">
-              You’re feeling <b>{mood}</b> . Try <b>{recommendation}</b> to feel
+              You’re feeling <b>{mood}</b>. Try <b>{recommendation}</b> to feel
               better! 🥗
             </p>
           )}
